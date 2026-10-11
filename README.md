@@ -13,7 +13,7 @@ Lua autocomplete for every native · live linting · NUI scaffolding · one-clic
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Monaco](https://img.shields.io/badge/Editor-Monaco-007ACC)
 ![Platform](https://img.shields.io/badge/Windows-ready-0078D4?logo=windows&logoColor=white)
-![Version](https://img.shields.io/badge/version-0.1.0-orange)
+![Version](https://img.shields.io/badge/version-1.0.5-orange)
 
 </div>
 
