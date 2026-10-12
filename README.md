@@ -72,35 +72,6 @@ Then:
 
 > 💡 **First launch needs internet.** Monaco loads from a CDN and the natives list is fetched once. After that the natives are cached.
 
-## 🛠️ Scripts
-
-| Command            | What it does                                        |
-| ------------------ | --------------------------------------------------- |
-| `npm run dev`      | Start in development with hot reload                |
-| `npm run build`    | Compile to `out/`                                   |
-| `npm start`        | Preview the production build                        |
-| `npm run typecheck`| Type-check main and renderer processes              |
-| `npm run dist`     | Build a Windows installer into `release/`           |
-
-## 📦 Building the installer
-
-```bash
-npm run dist
-```
-
-This produces an NSIS installer at `release/FiveM Studio-Setup-<version>.exe`. The app and installer icons come from `build/icon.ico`.
-
-## 🗺️ Project layout
-
-```
-assets/            logo source files (PNG + SVG)
-build/             app icons used by electron-builder
-src/main/          Electron main process (files, terminal, natives, NUI preview)
-src/preload/       secure bridge between main and renderer
-src/renderer/      React UI (editor, explorer, themes, FiveM linting)
-electron-builder.yml   installer configuration
-```
-
 ## ⚠️ Known limitations
 
 - The terminal is a plain PowerShell process with no TTY. It's great for commands, not for interactive programs.
