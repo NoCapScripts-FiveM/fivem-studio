@@ -56,16 +56,6 @@ Pick your vibe under **Appearance**: `dark` · `chocolate` · `latte` · `light`
 
 ## 🚀 Quick start
 
-```bash
-# 1. install dependencies
-npm install
-
-# 2. run in development (hot reload)
-npm run dev
-```
-
-Then:
-
 1. Click **Open Folder** and pick your resource (or your whole `resources/` directory).
 2. Open the **FiveM tools** tab to scaffold a new NUI resource.
 3. Open a `.lua` file and start coding.
